@@ -1,0 +1,198 @@
+<doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+	<script type="text/javascript" src="../assets/js/bootstrap.mim.js"></script>
+	<title> my portfolio</title>
+</head>
+<body>
+	<!--Navigation bar-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li classd="nav-item">
+      	<a class="nav-link" gerf="#contact">contact</a>
+      </li>
+      </nav>  
+
+<!--my photo-->
+  
+  <div class="container-fluid p-5 bgblue text-red text-center">
+    <center><img align="center"border=150 height=150 width="150"src="../assets/img/my photo.jpg"></center>
+    <h4>Khum Basnet</h4>
+    <a href="https://www.facebook.com/profile.php?id=100081834084484">
+    <button><img align="center"border="20" height="20" width="20" src="../assets/img/f icon.png"></button>
+  </a>
+    <button><img align="center"border="20" height="20" width="20" src="../assets/img/inst.png"></button>
+    <button><img align="center" border="20" height="20" width="20" src="../assets/img/google.png"></button>
+
+    <marquee direction="left to righ" bgcolor="green">
+
+    <h2>Academic achievements</h2>
+  </marquee>
+
+  <div class="card-group" style="margin-top: 3rem;">
+
+    <div class="card">
+      <div class="card-body" style="background-color: #FFFF00;">
+        <font face="Arial"color="red">
+        <h5 class="card-title">Computer Course</h5>
+      </font>
+        <p class="card-text">
+          <b>
+          Year:2079<br>
+          GPA:3.55<br>
+          Institute:kathalaya<br>
+          Location:kl tower,Chabhil<br>
+          Web:kathalaya225@gmailcom<br>
+        </b>
+        </p>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body" style="background-color:#90ee90 ;">
+        <font face="arial"color="red">
+        <h5 class="card-title">SEE</h5>
+      </font>
+        <p class="card-text">
+          <b>
+          Year:2078<br>
+          GPA:3.7<br>
+          School:Sainik Awasiya Mahavidhyalaya<br>
+          Location:Surkhet<br>
+          Web:sams354@gmail.com<br>
+        </b>
+
+
+        </p>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body" style="background-color: #87CEEB ;">
+        <font face="arial"color="red">
+        <h5 class="card-title">BLE</h5>
+      </font>
+        <p class="card-text">
+          <b>
+          Year:2078<br>
+          GPA:3.45<br>
+          School:Sainik Awasiya Mahavidhyalaya<br>
+          Location:Surkhet<br>
+          Web:Sams345@gmail.com<br>
+        </b>
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- about me -->
+  <div class="aboutme" style="margin-top: 5rem; background-color: beige;">
+    <font face="arial"color="green">
+    <h2 style="text-align: center;" id="about">About me</h2>
+  </font>
+    <p style="text-align: center;"> My name is Khum Basnet. I am 16 yearts also old.I just appeared SEE in 2079 batch(The most Unlucky Batch)
+    My hobbies are sleepping,Reading,Travellimg etc. My aim is to be a CA.Now a days i live in Kapan,KAthmandu.I am a good boy.</p>
+
+  </div>
+  <!-- about me end -->
+
+  <!-- form starts -->
+  <!-- Contact Form -->
+  <div style="background-color:grey">
+  <div class="container">
+    <font face="arial"color="blue">
+    <h2 id="contact">Contact Me</h2>
+  </font>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="well well-sm">
+          <form>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                </div>
+                <div class="form-group">
+                  <label for="email"> Email Address</label>
+                  <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <select id="subject" name="subject" class="form-control" required="required">
+                    <option value="na" selected="">Choose One:</option>
+                    <option value="service">Job Offer</option>
+                    <option value="suggestions">Suggestions</option>
+                    <option value="product">Scholarship</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                    placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <form>
+          <legend><span class="glyphicon glyphicon-globe"></span> Adress</legend>
+          <address>
+            <strong>Twitter, Inc.</strong><br>
+            795 Folsom Ave, Suite 600<br>
+            San Francisco, CA 94107<br>
+            <abbr title="Phone">P:</abbr>
+            (123) 456-7890
+          </address>
+          <address>
+            <strong>Full Name</strong><br>
+            <a href="mailto:#">basnetkhum227@gmail.com</a>
+          </address>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- form ends -->
+
+   </div><!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color:#000000">
+          © 2020 Copyright:
+          <a class="text-white" href="index.html"><span style="font-family: 'Righteous', cursive; font-size: 2rem;">Thanku for visiting my portfolio</span></a>
+        </div>
+        <!-- Copyright -->
+
+
+
+
+
+	
+
+</body>
+</html>
